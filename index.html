@@ -106,6 +106,24 @@
                     gesture-handler
                 ></a-image>
             </a-marker>
+ <a-marker
+                id="animated-marker5"
+                type="pattern"
+                preset="custom"
+                url="assets/marker5.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                    src="assets/asset5.jpeg"
+                    scale="1 1 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
             
             <a-entity camera></a-entity>
         </a-scene>
